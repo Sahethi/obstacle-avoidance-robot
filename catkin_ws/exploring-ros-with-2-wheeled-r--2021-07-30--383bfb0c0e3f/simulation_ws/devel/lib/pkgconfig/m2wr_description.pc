@@ -1,0 +1,8 @@
+prefix=/home/sahethidg/catkin_ws/exploring-ros-with-2-wheeled-r--2021-07-30--383bfb0c0e3f/simulation_ws/devel
+
+Name: m2wr_description
+Description: Description of m2wr_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
