@@ -1,8 +1,0 @@
-prefix=/home/sahethidg/catkin_ws/install
-
-Name: chatter_listener
-Description: Description of chatter_listener
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

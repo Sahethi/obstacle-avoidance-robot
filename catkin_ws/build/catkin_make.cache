@@ -1,2 +1,0 @@
-1_chatter_listener:2_simulation_dh:3_simulation_rviz:4_simulation_gazebo
--DCATKIN_DEVEL_PREFIX=/home/sahethidg/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/sahethidg/catkin_ws/install -G Unix Makefiles
