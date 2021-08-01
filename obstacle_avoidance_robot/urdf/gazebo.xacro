@@ -28,6 +28,7 @@
     </plugin>
   </gazebo>
 
+  <!-- Adding sensor behavior to laser link -->
   <gazebo reference="sensor_laser">
     <sensor type="ray" name="head_hokuyo_sensor">
     <!-- <sensor type="gpu_ray" name="head_hokuyo_sensor"> -->

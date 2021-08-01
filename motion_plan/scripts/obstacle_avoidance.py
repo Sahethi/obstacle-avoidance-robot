@@ -9,11 +9,9 @@ pub = None
 def callback_laser(msg):
   # 120 degrees into 3 regions
   regions = {
-    'right':  min(min(msg.ranges[0:143]), 10),
-    'fright': min(min(msg.ranges[144:287]), 10),
-    'front':  min(min(msg.ranges[288:431]), 10),
-    'left':   min(min(msg.ranges[432:575]), 10),
-    'left':   min(min(msg.ranges[576:713]), 10),
+    'right':  min(min(msg.ranges[0:2]), 10),
+    'front':  min(min(msg.ranges[3:5]), 10),
+    'left':   min(min(msg.ranges[6:9]), 10),
   }
   
   take_action(regions)
@@ -25,7 +23,7 @@ def take_action(regions):
 
   msg = Twist()
   linear_x = 0
-  angular_z = 0
+  angular_z = 1
   
   state_description = ''
   
