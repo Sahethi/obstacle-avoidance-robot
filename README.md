@@ -1,2 +1,2 @@
 # Obstacle Avoidance Bot
-This project is to create a bot to avoid obstacles and it's simulation is done on Gazebo. 
+This project is to create a differential drive bot to avoid obstacles. The designed bot is simulated in Gazebo.
