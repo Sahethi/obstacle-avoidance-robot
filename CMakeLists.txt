@@ -115,7 +115,7 @@ catkin_package(
 ###########
 
 #For C++
-add_executable(obstacle_avoidance_robot_node ${PROJECT_SOURCE_DIR}/scripts/obstacle_avoidance.cpp)
+add_executable(obstacle_avoidance_robot_node ${PROJECT_SOURCE_DIR}/scripts/obstacle_avoid.cpp)
 add_dependencies(obstacle_avoidance_robot_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 target_link_libraries(obstacle_avoidance_robot_node
    ${catkin_LIBRARIES}
