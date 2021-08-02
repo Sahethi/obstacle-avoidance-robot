@@ -8,7 +8,7 @@ using namespace std;
 ros::Publisher pub;
 string status = "" ;
 float linear_x = 0;
-float angular_z = 0;
+float angular_z = 1;
 geometry_msgs::Twist message;
 
 void takeAction(float right , float center , float left){

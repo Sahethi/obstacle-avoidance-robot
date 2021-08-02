@@ -7,10 +7,12 @@ project(obstacle_avoidance_robot)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
+
 find_package(catkin REQUIRED COMPONENTS
-  robot_description
+  roscpp
   urdf
 )
+
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -111,6 +113,21 @@ catkin_package(
 ###########
 ## Build ##
 ###########
+
+#For C++
+add_executable(obstacle_avoidance_robot_node ${PROJECT_SOURCE_DIR}/scripts/obstacle_avoidance.cpp)
+add_dependencies(obstacle_avoidance_robot_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(obstacle_avoidance_robot_node
+   ${catkin_LIBRARIES}
+)
+
+
+# add_executable(obstacle_avoidance_robot src/obstacle_avoidance.cpp)
+# add_dependencies(obstacle_avoidance_robot ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+
+#target_link_libraries(obstacle_avoidance_robot
+#  ${catkin_LIBRARIES}
+#)
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
