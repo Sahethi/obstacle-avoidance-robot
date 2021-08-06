@@ -39,7 +39,8 @@ The details are provided in this [PDF](https://github.com/Sahethi/ros-assignment
     │   ├──world02.world   
     │   ├──world03.world
     ├── .catkin_workspace    
-    ├── CmakeLists.txt           
+    ├── CmakeLists.txt  
+    ├── License.md         
     ├── Obstacle Avoidance Using ROS and Gazebo.pdf
     ├── README.md
     └── package.xml
@@ -74,4 +75,6 @@ cd obstacle-avoidance-robot
 
 - [@Sahethi](https://www.github.com/Sahethi)
 
+## License
+The [License](https://github.com/Sahethi/obstacle-avoidance-robot/blob/master/LICENSE.md) used for this Project.
   
