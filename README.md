@@ -1,11 +1,8 @@
 
 # Obstacle Avoidance Bot
-
-This project is to create a differential drive bot to avoid obstacles. The designed bot is simulated in Gazebo and was done by the help of [ROS Tutorials](https://www.theconstructsim.com/ros-projects-exploring-ros-using-2-wheeled-robot-part-1/).
-The details are provided in this [PDF](https://github.com/Sahethi/ros-assignment/blob/master/Obstacle%20Avoidance%20Using%20ROS%20and%20Gazebo.pdf). 
+This project is to create a differential drive bot to avoid obstacles. The details are provided in this [PDF](https://github.com/Sahethi/ros-assignment/blob/master/Obstacle%20Avoidance%20Using%20ROS%20and%20Gazebo.pdf). 
 
 ## Table of Contents
-
 * [About the Project](#about-the-project)
   * [File Structure](#file-structure)
   * [Tech Stack](#tech-stack)
@@ -63,16 +60,16 @@ cd obstacle-avoidance-robot
     * You can also add parameters to it like this `roslaunch obstacle_avoidance_robot spawn.launch x:=1 y:=2 z:=4`. It is not necessary to mention all three values together, you can mention on x or y or z. 
 * In your last terminal, run this command  `rosrun obstacle_avoidance_robot` obstacle_avoidance.py. This is a python script which enables your bot to avoid obstacles. 
     
-    
-
 ## Video
-
 [![Video](/assets/robot.png)](https://www.youtube.com/watch?v=sNOSZIfiu6g)
 
-
+## Acknowledgements and Resources
+* [SRA VJTI](https://sravjti.in/)
+* [ROS Tutorials](https://www.theconstructsim.com/ros-projects-exploring-ros-using-2-wheeled-robot-part-1/)
+* [Gazebo](http://gazebosim.org/)
+* [The Construct](https://www.theconstructsim.com/)
   
 ## Authors
-
 - [@Sahethi](https://www.github.com/Sahethi)
 
 ## License
